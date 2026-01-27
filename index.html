@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALCONZ E-SPORTS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="imgs/logo_original_HCZ_HD.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <h1 id="loader-text">This is HALCONZ</h1>
+            <!--<p>Loading...</p>-->
+        </div>
+    </div>
+
+    <img src="imgs/[CITYPNG.COM]Square Black & Green Spotify App Icon PNG - 1500x1500.png" id="start-music"></img>
+
+    <iframe
+    id="spotify-player"
+    src="https://open.spotify.com/embed/playlist/2DEM6i2Niqm9h4Qujp8gdI?theme=0"
+    width="300"
+    height="80"
+    frameborder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+    style="display:none; border-radius:12px;">
+    </iframe>
+
+    <div class="mini-menu-button" id="mmbutton">
+        <i class="fa-solid fa-chevron-down"></i>
+        
+        <div class="menu-options">
+           <img onclick="window.open('https://www.instagram.com/halconzesports/', '_blank')" src="imgs/—Pngtree—instagram icon instagram logo vector_3584852.png" alt=""> 
+        </div>
+        <div class="menu-options">
+           <img onclick="window.open('https://chat.whatsapp.com/FTxRch73g8iGp89wMChRFW', '_blank')" src="imgs/—Pngtree—whatsapp icon whatsapp logo whatsapp_3584845.png" alt=""> 
+        </div>
+        <div class="menu-options">
+           <p class="trademark">MastersWeb™</p>
+        </div>
+        
+    </div>
+
+    <div class="container-esports">
+    <section class="left-hcz">
+        <div class="box-hcz">
+            <div class="box-img-hcz">
+                <img class="logo-hcz" src="imgs/logo_original_HCZ_HD.png" alt="">
+            </div>
+            <div class="left-button-container">
+                <p class="merch">MERCH COMING SOON</p>
+                <!--<button class="btn-buy">
+                <img src="imgs/DeportesMadrid-logo-fotor-bg-remover-20251209173927.png" alt="" class="icon">
+
+                <span class="now">ahora!</span>
+                <span class="play">Unete</span>
+            </button>-->
+            </div>
+            
+        </div>
+    
+    </section>
+    <section class="right-dis">
+        <div class="box-dis">
+            <div class="box-img-dis">
+                <img class="logo-dis" src="imgs/team-background (1) (1).png" alt="">
+            </div>
+            <div class="right-button-container">
+            <img class="discord-img" onclick="window.open('https://discord.gg/KDwpkbMU', '_blank')" src="imgs/toppng.com-discord-black-logo-800x800.png" alt="">
+            <!--<button class="btn-join" onclick="window.open('https://discord.gg/KDwpkbMU', '_blank')">
+                <img src="imgs/toppng.com-discord-logo-01-discord-logo-3126x2249.png" alt="" class="icon">
+
+                <span class="now">ahora!</span>
+                <span class="play">Unete</span>
+            </button>-->
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer class="derechos">
+        <p>© 2026 | Todos los derechos reservados a <strong>MASTERSWEB</strong></p>
+    </footer>
+</body>
+<script src="js/loader.js"></script>
+<script src="js/minimenu.js"></script>
+<script src="js/frases.js"></script>
+<script src="js/spotify.js"></script>
+</html>
