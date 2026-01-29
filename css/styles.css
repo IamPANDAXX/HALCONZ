@@ -287,8 +287,8 @@ body{
   background-color: #ffffff;
 }
 
-.discord.-img{
-  
+.discord-img{
+  overflow: hidden;
 }
 
 .box-img-dis{
